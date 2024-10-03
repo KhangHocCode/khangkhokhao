@@ -3,9 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Câu 11</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        *{
+            box-sizing: border-box;
+        }
+    .viTri{
+        display: inline-block;
+        font-family: "Be Vietnam Pro", sans-serif;
+        text-align: center;
+        border-radius: 8px;
+        border: 3px solid none;
+        font-size: 15px;
+        background-color: aqua;
+        width: 270px;
+        height: auto;
+        padding: 20px;
+        border-radius: 30px;
+        text-decoration: none;
+        text-align: left;
+    }
+    .viTri h3{
+        color: black;
+        font-size: 24;
+    }
+    .viTri:hover h3{
+        color: blue;   
+    }
+    .danhMuc{
+        background-color: #F9F9FF;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        text-align: center;
+        font-family: "Be Vietnam Pro", sans-serif;
+    }
+    .tieuDe{
+        font-size: 48px;
+        font-weight: 700;
+        color: #192335;
+    }
+    .viTri img{
+        width: 232px;
+        height: 150px;
+        border-radius: 20px;
+    }
+    .viTri-vang{
+        background-color: #FFFCCF;
+    }
+    .viTri-tim{
+        background-color: #FFEDFF;
+    }
+    .viTri-hong{
+        background-color: #FFE8EB;
+    }
+    .viTri-xanh{
+        background-color: #E9F6FF;
+    }
+    .viTri ul{
+        padding: 0;
+        margin: 20px 0;
+        list-style: none;
+    }
+    .viTri ul li i{
+        width: 25px;
+        color: #192335;
+    }
+    .viTri ul li:last-child{
+        margin-bottom: 0;
+    }
+    .viTri p i{
+        margin-left: 5px;
+    }
+</style>
 </head>
 <body>
-    
+    <h2>Câu 11: Category (Danh sách danh mục)</h2>
+    <p><strong>Yêu cầu</strong>: Sử dụng HTML và CSS để dựng khối bên dưới (Dùng kiêu hiển thị inline-block, và font Be Vietnam Pro)</p>
+    <div class="danhMuc">
+        <h2 class="tieuDe">Danh sách danh mục</h2>
+        <a class="viTri viTri-vang" href="#">
+            <img src="./image-1.jpg" alt="Web Design">
+            <h3>Web Design</h3>
+            <ul>
+                <ul class="danhSach">
+                    <li><i class="fa-regular fa-heart"></i> Health and Wellness</li>
+                    <li><i class="fa-regular fa-flag"></i> Literacy and Language</li>
+                    <li><i class="fa-regular fa-eye"></i> Social-Emotional Learning</li>
+                    <li><i class="fa-regular fa-pen-to-square"></i> Visual and Creative Arts</li>
+                    <li><i class="fa-solid fa-battery-three-quarters"></i> Thinking and Learning</li>
+                </ul>
+            </ul>
+            <p>Xêm thêm <i class="fa-solid fa-arrow-right"></i></p>
+        </a>
+        <a href="#" class="viTri viTri-tim">
+            <img src="./image-2.jpg" alt="Graphic Design">
+            <h3>Graphic Design</h3>
+            <ul>
+                <ul class="danhSach">
+                    <li><i class="fa-regular fa-heart"></i> Health and Wellness</li>
+                    <li><i class="fa-regular fa-flag"></i> Literacy and Language</li>
+                    <li><i class="fa-regular fa-eye"></i> Social-Emotional Learning</li>
+                    <li><i class="fa-regular fa-pen-to-square"></i> Visual and Creative Arts</li>
+                    <li><i class="fa-solid fa-battery-three-quarters"></i> Thinking and Learning</li>
+                </ul>
+            </ul>
+            <p>Xêm thêm <i class="fa-solid fa-arrow-right"></i></p>
+        </a>
+        <a href="#" class="viTri viTri-hong">
+            <img src="./image-3.jpg" alt="Development">
+            <h3>Development</h3>
+            <ul>
+                <ul class="danhSach">
+                    <li><i class="fa-regular fa-heart"></i> Health and Wellness</li>
+                    <li><i class="fa-regular fa-flag"></i> Literacy and Language</li>
+                    <li><i class="fa-regular fa-eye"></i> Social-Emotional Learning</li>
+                    <li><i class="fa-regular fa-pen-to-square"></i> Visual and Creative Arts</li>
+                    <li><i class="fa-solid fa-battery-three-quarters"></i> Thinking and Learning</li>
+                </ul>
+            </ul>
+            <p>Xêm thêm <i class="fa-solid fa-arrow-right"></i></p>
+        </a>
+        <a href="#" class="viTri viTri-xanh">
+            <img src="./image-4.jpg" alt="IT and Software">
+            <h3>IT and Software</h3>
+            <ul>
+                <ul class="danhSach">
+                    <li><i class="fa-regular fa-heart"></i> Health and Wellness</li>
+                    <li><i class="fa-regular fa-flag"></i> Literacy and Language</li>
+                    <li><i class="fa-regular fa-eye"></i> Social-Emotional Learning</li>
+                    <li><i class="fa-regular fa-pen-to-square"></i> Visual and Creative Arts</li>
+                    <li><i class="fa-solid fa-battery-three-quarters"></i> Thinking and Learning</li>
+                </ul>
+            </ul>
+            <p>Xêm thêm <i class="fa-solid fa-arrow-right"></i></p>
+        </a>
+    </div>
 </body>
 </html>
